@@ -1,27 +1,10 @@
-body {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    background-color: peachpuff;
-}
+.gradient-custom-2 {
+/* fallback for old browsers */
+background: #fbc2eb;
 
-h1 {
-    padding-top: 4em;
-}
+/* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(to right, rgba(251, 194, 235, 1), rgba(166, 193, 238, 1));
 
-p{
-    margin: 2em 0;
-}
-
-img {
-    width: 30em;
-    max-width: 50%;
-}
-
-h2 {
-    padding-top: 3em;
-}
-
-p {
-    text-align: center;
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to right, rgba(251, 194, 235, 1), rgba(166, 193, 238, 1))
 }
